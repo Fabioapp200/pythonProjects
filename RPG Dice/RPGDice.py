@@ -3,8 +3,6 @@
 
 import random
 
-
-
 def rollDice():
     dice = input(f'Choose a dice to roll.\n')
 
@@ -19,7 +17,6 @@ def rollDice():
         rollDice()
     elif playAgain =='n':
         input(f'Press any key to exit')
-
 
 
 def rollSingleDie(dice):
@@ -46,6 +43,3 @@ def rollMultiDice(dice):
 
 
 rollDice()
-
-
-
