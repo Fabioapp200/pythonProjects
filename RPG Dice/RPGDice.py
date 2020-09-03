@@ -20,7 +20,7 @@ def rollSingleDie(dice):
     
     if str(dice.lower())[0] == 'd':
         diceNumber = str(dice.lower())
-        diceNumber = diceNumber[1:3]
+        diceNumber = diceNumber[1:4]
         diceNumber = int(diceNumber)
         result = random.randint(1,diceNumber)
         if len(splitText) > 1:
