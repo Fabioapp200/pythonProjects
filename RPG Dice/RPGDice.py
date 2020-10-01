@@ -13,7 +13,7 @@ def rollDice():
     else:
         print('To roll a single die use the prefix "d"')
     playAgain()
-    
+
 def rollSingleDie(dice):
     
     splitText = dice.split('+',1)
